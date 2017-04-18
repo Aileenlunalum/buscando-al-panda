@@ -1,0 +1,39 @@
+*{
+  background: black;
+}
+
+h3{
+  color:white;
+}
+
+.img1{
+  width: 200px;
+  height: 200px;
+}
+
+.img{
+  width: 250px;
+  height: 250px;
+  padding:15px;
+  margin: 20;
+  display:inline-block;
+}
+
+article{
+  width: 500px;
+  height: 250px;
+  padding:50px;
+  display:inline-block;
+  color:white;
+}
+
+
+.x{
+  width: 15px;
+  height: 15px;
+  color:red;
+  border-color: white;
+  border-top: 10px;
+  margin-left: 220;
+  position:relative;
+}

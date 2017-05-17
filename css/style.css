@@ -9,23 +9,28 @@ h3{
 .img1{
   width: 200px;
   height: 200px;
+  z-index: 20;
+  opacity:.7;
 }
 
 .img{
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   padding:15px;
-  margin: 20;
+  margin: 25px;
   display:inline-block;
+  z-index: 15;
+  border: 10px solid red;
 }
 
-article{
+.infoBAsica{
   width: 500px;
   height: 250px;
   padding:50px;
   display:inline-block;
   color:white;
 }
+
 .subtitulos{
     width: 100px;
     height:auto;
@@ -35,15 +40,17 @@ article{
     margin-left: 125px;
     padding: 15px 100px;
 }
-
-.x{
-  width: 15px;
-  height: 15px;
-  color:red;
-  border-color: white;
-  border-top: 10px;
-  margin-left: 220;
+.cerrar {
+  width:15px;
+  height:15px;
+  color:white;
+border: 1px solid white;
+  padding: 5px;
+  font-size: 15px;
   position:relative;
+  left:178px;
+  bottom:204px;
+  z-index: 30;
 }
 
 section{

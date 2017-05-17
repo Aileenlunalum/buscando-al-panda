@@ -2,49 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>panda y bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleBootstrap.css">
   </head>
   <body>
+    <header class="container">
+      <nav class="row">
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#">Inicio</a></li>
+          <li role="presentation" ><a href="#">Pandas</a></li>
+          <li role="presentation" ><a href="#">Historia</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <h3 align=center><strong>EL ADORABLE PANDA</strong></h3>
-      <section align=center>
-          <div class="img" id="panda1">
-              <img src="imagenes/panda1.jpg"/class="img1">
-              <div class="cerrar">x</div>
-          </div>
-          <div class="img" id="panda2">
-              <img src="imagenes/panda2.jpg"/class="img1">
-              <div class="cerrar">x</div>
-          </div>
-          <div class="img"id="panda3">
-              <img src="imagenes/panda3.jpg"/class="img1">
-              <div class="cerrar">x</div>
-          </div>
-          <div class="img" id="panda4">
-            <img src="imagenes/panda4.jpg"/class="img1">
-            <div class="cerrar">x</div>
-          </div>
+      <section class="container">
+          <h3 aling="center"><strong>EL ADORABLE PANDA</strong></h3>
+        <section  class="row margen">
+                <div class=" col-md-3 col-md-offset-1 fondoRojo">
+                 <img src="imagenes/panda1.jpg" class="tamano" alt="">
+                 <span class="close">x</span>
+                </div>
+                <div class="col-md-3 col-md-offset-1 fondoRojo">
+                  <img src="imagenes/panda2.jpg" class="tamano" alt="">
+                  <span class="close">x</span>
+                 </div>
+                <div class=" col-md-3 col-md-offset-1 fondoRojo">
+                  <img src="imagenes/panda3.jpg" class="tamano" alt="">
+                  <span class="close">x</span>
+                 </div>
+            </section>
+          </section>
       </section>
-      <section >
-          <div class="subtitulos"id="bExtincion">Extincion</div>
-          <div class="subtitulos"id="bOrigen">Origen</div>
-          <div class="subtitulos" id="bRestaurar">Restaurar fotos</div>
-     </section>
-     <section >
-        <article class="infoBAsica"> El panda gigante habita en las remotas regiones montañosas de China Central y el Tíbet
-         a alturas de 1,200-4,100 metros sobre el nivel del mar. Anteriormente, su rango geográfico abarcaba
-         vastas zonas, incluyendo la mayor parte del sur y este de China, pero en la actualidad solo está presente
-         en partes de 6 cadenas montañosas aisladas entre sí: Minshan, Qinling, Qionglai, Liangshan, Daxiangling,
-         Xiaoxiangling.</article>
+        <section class="botones  margen">
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn  btn-group col-md-offset-1 fondoRojo " name="button">Cerrar</button>
+            <button type="button" class="btn  btn-group col-md-offset-1 fondoRojo " name="button">Borrar</button>
+            <button type="button" class="btn  btn-group col-md-offset-1 fondoRojo " name="button">Restaurar</button>
+          </div>
+          <section class="row margen">
+            <section class=" col-md-5   col-md-offset-1">
+              Habita en los fríos y húmedos bosques de bambúes del este de Tíbet y sudoeste de China.
+               El panda gigante vive en las apartadas regiones montañosas del centro de China Sudoccidental,
+                y se alimenta de los bosques de bambú. Medio donde habita (acuático o terrestre): Terrestre
 
-       <article class="infoBAsica"> Los bosques de bambú son su hábitat por excelencia. Se caracterizan por ser montañosos, húmedos y frescos,
-         es por ello que el panda se protege entre los árboles o en cuevas. Debido a su pérdida de hábitat, el oso panda
-         solo habita en esta región en estado salvaje, ya que se encuentra en varias latitudes del mundo pero en estado
-         de cautiverio</article>
-    </section>
-    <!-- <script src="js/codigo.js">
 
-    </script> -->
+            </section>
+            <section class=" col-md-5   col-md-offset-1">
+              Llegan a vivir entre los 10 y los 15 años. Un Panda bien alimentado puede llegar a vivir unos 30 años.
+              Descripción breve de su comportamiento Los pandas son animales solitarios y tranquilos, se comunican muy frecuentemente,
+              la mayoría a través de vocalizaciones y marcados acentos. A veces presenta un comportamiento
+             feroz y en momentos de combate logra herir mortalmente a su contrincante.
+
+            </section>
+           </section>
+
+
+      <script type="text/javascript" src="js/bootstrap.min.js">
+      </script>
   </body>
 </html>

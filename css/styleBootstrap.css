@@ -1,0 +1,23 @@
+.fondoRojo{
+  background: red;
+}
+.tamano{
+  width: 100%;
+  height: 15em;
+  border-top: 2em solid red;
+  border-bottom: 2em solid red;
+}
+.close{
+  position:absolute;
+  right: 5%;
+  top: 15%;
+  color:white;
+  border:2px solid white;
+}
+body{
+  background: black;
+  color:white;
+}
+.margen{
+  margin: 5%;
+}
